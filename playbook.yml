@@ -1,4 +1,4 @@
-- hosts: mygroup
+- hosts: jahoor
   tasks:
     - debug:
         msg: "I'm in group 'mygroup'"
