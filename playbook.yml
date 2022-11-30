@@ -16,5 +16,5 @@
 - name: configure ansible-pull
   hosts: all
   roles:
-    - role: ansible-pull
-      ansible_pull_url: https://git.example.com/ansible.git
+  - role: ansible-pull
+    ansible_pull_url: https://git.example.com/ansible.git
