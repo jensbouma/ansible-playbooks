@@ -1,4 +1,5 @@
 - name: Playbook to Update cache, upgrade packages and reboot os if necessary
+  hosts: .,jahoor,all
   become: true
   gather_facts: False
   tasks:
